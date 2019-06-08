@@ -1,41 +1,31 @@
-#
-# Be aware that even a small syntax error here can lead to failures in output.
-#
-
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Kevin Morton
+    tagline:  iOS Developer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
+    email:
+    phone:
+    website:  #do not add http://
+    linkedin: kevnm67
+    github: kevnm67
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    twitter:
+    stack-overflow: 1856829/kevnm67 # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
 
-    languages:
-      - idiom: English
-        level: Native
-
-      - idiom: French
-        level: Professional
-
-      - idiom: Spanish
-        level: Professional
+    # languages:
+    #   - idiom: English
+    #     level: Native
 
     interests:
-      - item: Climbing
+      - item: Guitar/music
         link:
 
       - item: Snowboarding
@@ -45,153 +35,114 @@ sidebar:
         link:
 
 career-profile:
-    title: Career Profile
+    title: Professional Statement
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-
-      Second paragraph if required.
+      iOS developer focused on well-architected, tested & collaborative software solutions. Dedicated to delivering innovative mobile solutions, embracing new technologies & intuitive user experiences.
 
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+    - degree: BA Communication
+      university: College of Charleston
+      time: 2009
+      details:
 
-          - Bullet point
-          - Bullet point
-
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
+    - degree: Computer Scrience
+      university: Kennesaw State University
+      time: 2014-2015
+      details: Non-degree seeking post bacc in computer science.
 
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: iOS Developer
+      time: Oct. 2018 - Present
+      company: Greenlight, Atlanta, GA
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
+          - Configured Jira projects for engineering with automated workflows.
+          - Established CI/CD pipelines for multiple iOS environments.
+          - Automated common code review tasks using danger and code climate.
+          - Developed continuous deployment pipelines distributing iOS builds (for QA, Staging and Production) to testflight and AWS.
+          - Implemented AWS caching strategy decreasing CI build times by %50.
 
-          - Bullet point
-          - Bullet point
-
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+    - role: Lead iOS Developer
+      time: July 2018 - Oct. 2018
+      company: Roadie, Atlanta, GA
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+          - Led the project plan and scope of Roadie’s driver focused iOS application.
+          - Coordinate iOS development between UX, backend, QA and product teams.
+          - Managed iTunes connect responsibilities for Roadie’s driver app: creation, test ﬂight setup, metadata, etc.
 
-          - Bullet point
-          - Bullet point
-
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+    - role: iOS Developer
+      time: Aug. 2016 - July 2018
+      company: Roadie, Atlanta, GA
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+          - Collaborated with the UX team to develop adaptive interface designs leveraging Auto Layout.
+          - Created custom UI components using core graphics.
+          - Engineered shell & python scripts for project & code management.
+          - Conﬁgured multiple build environments - QA, production, adhoc, app store.
+          - Created a fastlane setup for distributing multiple builds per conﬁguration, registering devices & updating provisioning proﬁles & automating development tasks.
+          - Increased CI productivity decreasing build times by ~8 minutes.
+          - Designed datasource’s for table & collection views, cells & other objects; MVC pattern, nullability denotation(s), documentation & designed for modularity.
+          - Deployed beta versions with test ﬂight & hockey app.
+          - Wrote focused, single purpose unit tests. Used expecta, OCMock & OHHTTPStubs.
+          - Worked with OAuth token handling - facebook, new relic, PushWoosh, etc.
+          - Worked with mapkit & map annotations.
+          - Integrated analytics used in collaboration with data science to drive feature development.
 
-          - Bullet point
-          - Bullet point
+    - role: iOS Developer
+      time: 2009 - Present
+      company: KJM Productions, Brookhaven, GA
+      details: |
+          - Designed, developed & maintained Food RX. Original release achieved top 20 ranking in ﬁtness category.
+          - Maintain SSDataSources cocoapod for Splinesoft & contribute to other pods.
+          - Implemented AFNetworking for parsing RSS and mapping data into SQLite-backed persistent stores.
+          - Created private cocoapod libraries used in personal projects.
+          - Deployed beta versions with test ﬂight & hockey app.
+          - Synced user data using Dropbox.
 
 projects:
     title: Projects
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      Projects I've worked on.
 
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: Lifegrip
+        link:
+        tagline: "An iOS app for Lifegrip, an Australian based health and fitness company."
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: Black Box App
+        link: ""
+        tagline: "An iOS app for Coach Rutherford's MEBB weightlifting program."
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: Food RX
+        link: "https://www.foodrxapp.com"
+        tagline: "A personal app created for crossfit and the paleo diet."
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-
-    papers:
-      - title: The Art of Computer Programming
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+# publications:
+#     title: Publications
+#     intro:
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
+      - name: iOS Development - Xcode, Objective-C, Swift
         level: 98%
 
-      - name: Javascript & jQuery
+      - name: Git - Github, Bitbucket, Gitlab
         level: 98%
 
-      - name: Angular
-        level: 98%
+      - name: Python
+        level: 88%
 
-      - name: HTML5 & CSS
+      - name: Shell
+        level: 82%
+
+      - name: CI/CD - Travis, Circle, Fastlane
+        level: 92%
+
+      - name: Core data - mogenerator, SQLite/JSON
+        level: 90%
+
+      - name: Agile - Pivotal Tracker, Jira
         level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
 
       - name: Sketch & Photoshop
         level: 60%
